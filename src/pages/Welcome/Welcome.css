@@ -1,0 +1,78 @@
+.welcome {
+  background-color: #fff;
+  max-width: 375px;
+  height: 812px;
+  border-radius: 32px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.welcome__hero {
+  width: 90%;
+  height: 362px;
+}
+.welcome__hero-circle {
+  height: 0px;
+  width: 0px;
+  border-radius: 50%;
+}
+.welcome__hero-circle--blue {
+  box-shadow: horizontal vertical blur_radius spread_radius color;
+  box-shadow: 250px 70px 80px 40px skyblue;
+}
+.welcome__hero-circle--purple {
+  box-shadow: 0 90px 80px 20px palevioletred;
+}
+.welcome__hero-circle--pink {
+  box-shadow: 300px 0 80px 20px pink;
+}
+.welcome__hero-card {
+  border-radius: 24px;
+  height: 185px;
+  width: 293px;
+  overflow: hidden;
+  position: relative;
+}
+.welcome__hero-card--first {
+  position: relative;
+  left: 15px;
+  top: 80px;
+  transform: rotateZ(35deg);
+}
+.welcome__hero-card--secondary {
+  z-index: 1;
+}
+.welcome__hero-card-img {
+  width: inherit;
+}
+.welcome__article {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+}
+.welcome__article-title {
+  font-size: 32px;
+}
+.welcome__article-content {
+  color: #939391;
+  line-height: 1.5em;
+}
+.welcome__btn {
+  align-self: center;
+  border-radius: 64px;
+  background: #0047ff;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0;
+  width: 100%;
+}
+.welcome__btn:hover {
+  cursor: pointer;
+  background-color: rgb(0, 47, 164);
+}/*# sourceMappingURL=Welcome.css.map */

@@ -1,0 +1,66 @@
+.home {
+  background-color: #fff;
+  max-width: 375px;
+  height: 812px;
+  border-radius: 32px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* Image */
+}
+.home__status-bar {
+  border: 1px black solid;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+.home__status-bar-avatar {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  grid-row: 1/span 2;
+}
+.home__status-bar-wel-msg {
+  font-size: 14px;
+  color: #656565;
+  grid-column: 2/span 3;
+}
+.home__status-bar-user-name {
+  font-weight: bold;
+  color: #101010;
+  grid-column: 2/span 3;
+}
+.home__status-bar-notification {
+  width: 24px;
+  height: 24px;
+  grid-column: -2;
+  grid-row: 1/span 2;
+  justify-self: end;
+}
+.home__status-bar-notification:hover {
+  cursor: pointer;
+}
+.home__search-bar {
+  width: 90%;
+  position: relative;
+}
+.home__search-bar-input {
+  background-color: #f1eeee;
+  caret-color: #939191;
+  width: 100%;
+  height: 50px;
+  border-radius: 64px;
+  text-indent: 20px;
+}
+.home__search-bar-input::-moz-placeholder {
+  color: #939191;
+  padding: 0 0 0 27px;
+}
+.home__search-bar-input::placeholder {
+  color: #939191;
+  padding: 0 0 0 27px;
+}/*# sourceMappingURL=Home.css.map */
